@@ -38,5 +38,5 @@ Net::HTTP.start("html.scribdassets.com") { |http|
 		total_time += Time.now - loading_time
 		average_time = total_time/i.to_f
 		puts "Downloaded file #{i} of #{max_pages}, Estimated time left: #{((max_pages-i)*average_time).round(2)} secs"
-	end #view-source:http://www.scribd.com/doc/253790910/Options-Futures-and-Other-Derivatives-7e-by-Hull-Solutions-Manual#scribd
+	end
 }
